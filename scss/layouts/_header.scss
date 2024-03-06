@@ -1,0 +1,50 @@
+@use '../abstracts/variables' as v;
+
+header {
+    background-color: v.$background;
+    height:fit-content;
+    box-shadow: 0px 3px 6px #0000000D;
+    .row {
+        height: 46px;
+        justify-content: space-between;
+        
+        img, a {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            
+        }
+    }
+
+    
+}
+
+ul {
+    list-style-type: none;
+}
+.information__link {
+    display: none;
+}
+
+@media (max-width:390px) {
+    .information__link {
+        display: flex;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bolder;
+        font-size: 25px;
+        height: 100%;
+        aspect-ratio: 1 / 1;
+        background-color: v.$secondary;
+        justify-content: center;
+    }
+    .information__link a{
+        color: v.$text__light;
+        text-decoration: none;
+    }
+
+    header.sticky {
+        position: sticky;
+        top: 0;
+        width: 100%
+    }
+}

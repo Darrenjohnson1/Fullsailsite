@@ -1,0 +1,58 @@
+@use '../abstracts/variables' as v;
+
+.footer--primary {
+    height: fit-content;
+    background-color: v.$footer__primary;
+}
+
+.footer--secondary {
+    height: fit-content;
+    color: v.$text__light;;
+    background-color: v.$footer__secondary;
+}
+
+footer .row {
+    flex-direction: column;
+}
+
+footer .row a {
+    font-size: 12px;
+    padding: 34px 0;
+    text-align: center;
+    color: v.$text__light;
+}
+
+.footer--primary .row p {
+    margin:0;
+    font-size: 12px;
+    padding: 19px 0 0 0;
+    text-align: center;
+    color: v.$text__light;
+}
+
+.footer--primary .row p:first {
+    padding: 0;
+}
+
+.footer--primary .body {
+    padding: 0 0 40px 0;
+}
+
+footer .row h2 {
+    font-size: 1.6875em;
+    font-family: 'Roboto Slab', serif;
+    font-weight: lighter;
+    color: v.$text__light;
+}
+
+footer hr {
+    border: 1px solid v.$form__border;
+    margin: 30px 0;
+}
+
+.footer--secondary p {
+    font-size: 11px;
+    margin:0;
+    padding: 19px 0;
+    color: v.$text__light;
+}

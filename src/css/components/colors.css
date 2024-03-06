@@ -1,0 +1,7 @@
+.container__row {
+  display: flex;
+}
+.container__row--col-1 {
+  flex: 0 0 8.33%;
+  max-width: 8.33%;
+}

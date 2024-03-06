@@ -1,0 +1,125 @@
+.red {
+  height: 90000px;
+  background-color: rgb(255, 0, 0);
+}
+
+.black {
+  height: 200px;
+  background-color: black;
+}
+
+@media (max-width: 390px) {
+  .container {
+    margin: 0 auto;
+    max-width: 360px;
+  }
+  .container .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container .row .col-sm-1 {
+    flex: 0 0 8.33%;
+    max-width: 8.33%;
+  }
+  .container .row .col-sm-2 {
+    flex: 0 0 16.66%;
+    max-width: 16.66%;
+  }
+  .container .row .col-sm-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .container .row .col-sm-4 {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
+  .container .row .col-sm-5 {
+    flex: 0 0 41.66%;
+    max-width: 41.66%;
+  }
+  .container .row .col-sm-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .container .row .col-sm-7 {
+    flex: 0 0 58.33%;
+    max-width: 58.33%;
+  }
+  .container .row .col-sm-8 {
+    flex: 0 0 66.66%;
+    max-width: 66.66%;
+  }
+  .container .row .col-sm-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  .container .row .col-sm-10 {
+    flex: 0 0 83.33%;
+    max-width: 83.33%;
+  }
+  .container .row .col-sm-11 {
+    flex: 0 0 91.66%;
+    max-width: 91.66%;
+  }
+  .container .row .col-sm-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+@media (min-width: 1169px) {
+  .container {
+    margin: 0 auto;
+    max-width: 1170px;
+  }
+  .container .row {
+    display: flex;
+  }
+  .container .row .col-lg-1 {
+    flex: 0 0 8.33%;
+    max-width: 8.33%;
+  }
+  .container .row .col-lg-2 {
+    flex: 0 0 16.66%;
+    max-width: 16.66%;
+  }
+  .container .row .col-lg-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .container .row .col-lg-4 {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
+  .container .row .col-lg-5 {
+    flex: 0 0 41.66%;
+    max-width: 41.66%;
+  }
+  .container .row .col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .container .row .col-lg-7 {
+    flex: 0 0 58.33%;
+    max-width: 58.33%;
+  }
+  .container .row .col-lg-8 {
+    flex: 0 0 66.66%;
+    max-width: 66.66%;
+  }
+  .container .row .col-lg-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  .container .row .col-lg-10 {
+    flex: 0 0 83.33%;
+    max-width: 83.33%;
+  }
+  .container .row .col-lg-11 {
+    flex: 0 0 91.66%;
+    max-width: 91.66%;
+  }
+  .container .row .col-lg-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">
+    <title>Full Sail Assignment</title>
+</head>
+<body>
+    <header class="sticky">
+        <div class="container">
+            <div class="row">
+                <a href="#"><img alt="Company Logo" src="src/img/Logo - Full Color - Mobile.svg"></a>
+                <div class="information__link">
+                    <a alt="Go To Form" href="#form">i</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="hero">
+        <div class="container">
+            <div class="cover">
+                <h1>Primary Headline</h1>
+                <h2>Secondary Headline</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container content">
+        <div class="row">
+            <div class="col-sm-12 col-lg-8">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur cursus risus metus. Aliquam blandit magna nec turpis mattis accumsan. Mauris eu semper neque. Mauris fringilla, mauris sit amet viverra hendrerit, purus lorem vestibulum ligula, at consequat urna lorem at felis. Phasellus accumsan pulvinar ipsum, <strong>quis semper dui mollis ac</strong>. Donec et turpis ut sem lobortis blandit in vel neque. Quisque luctus nisl vel dolor rutrum tempor. Donec iaculis facilisis lectus, in pellentesque risus sollicitudin vel. In in augue sed lectus semper feugiat. Nunc a dapibus sem. In ac ultricies sapien.
+                </p>
+                <div class="card__detail">
+                    <h3>Item Detail</h3>
+                    <p>
+                        Aliquam lacus sem, lobortis et risus sed, congue egestas nulla. Morbi vel leo tellus. Phasellus elit sapien, varius vel nunc ac, fringilla ullamcorper massa. Vestibulum faucibus rutrum felis, a sollicitudin est rhoncus quis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam eget arcu quis ante tincidunt dignissim.
+                    </p>
+                    <a class="indent" alt="Request Additional Information" href="#">Request Additional Information</a>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 card__form--offset">
+                <hr>
+                <div class="card card__form">
+                    <h1>Request Info</h1>
+                    <p>Fill out the form for more information or call us at <a href="#">844.716.1492</a>.</p>
+                    <hr class="accent">
+                    <form id="form">
+                        <div class="item--flex">
+                            <label class="required" for="program">SELECT ONE:</label>
+                            <select id="program" name="program" aria-placeholder="Choose a Program" required>
+                                <option value="">Choose a Program</option>
+                                <option value="web_design">Web Design</option>
+                            </select>
+                        </div>
+                        <div class="item--flex">
+                            <label class="required" for="user_name">YOUR NAME:</label>
+                            <input type="text" id="user_name" name="name" aria-placeholder="Your Name" placeholder="Your Name" required>
+                        </div>
+                        <div class="item--flex">
+                            <label class="required" for="Checkboxes">CHECKBOXES</label>
+                            <div id="Checkboxes" class="item--flex">
+                                <div>
+                                    <input class="input__checkbox" type="checkbox" id="box1" name="box1">
+                                    <label for="box1">Box 1</label>
+                                </div>
+                                <div>
+                                    <input class="input__checkbox" type="checkbox" id="box2" name="box2">
+                                    <label for="box1">Box 2</label>
+                                </div>
+                                <div>
+                                    <input class="input__checkbox" type="checkbox" id="box3" name="box3">
+                                    <label for="box1">Box 3</label>
+                                </div>
+                            </div>
+                        </div>
+                        <button aria-label="Submit" type="submit" value="Submit">SUBMIT REQUEST</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer--primary">
+            <div class="container">
+                <div class="row center">
+                    <a href="#"><img alt="Company Logo" src="src\img\Logo - White.svg"></a>
+                </div>
+                <div class="row center">
+                    <h2>If you&#39;re serious about your dream, we&#39;ll take your dream seriously.<sup>TM</sup></h2>
+                </div>
+                <hr>
+                <div class="row center body">
+                    <p>For more information about Full Sail&#39;s programs, courses, and studios, as well as details about financial aid and career development, please visit our website at <a href="https://www.fullsail.edu">www.fullsail.edu</a></p>
+                    <p>3300 University Blvd - Winter Park, FL 32792 - Financial aid available for those who qualify - Career development assistance · Accredited University, ACCSC</p>
+                    <p>Other product and company names mentioned herein may be the trademarks of their respective owners.</p>
+                    <p>The appearance of these marks does not necessarily indicate a formalized sponsorship or affiliation with other such companies.</p>
+                    <p>The terms “Full Sail,” “Full Sail University,” and the Full Sail logo are either registered service marks or services marks of Full Sail, LLC.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer--secondary">
+            <div class="container">
+                <div class="row center">
+                    <p>© 2024 Full Sail, LLC. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
