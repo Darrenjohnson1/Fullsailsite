@@ -433,6 +433,8 @@ footer hr {
   flex-direction: column;
 }
 .card__form label {
+  padding-left: 8px;
+  font-size: 14px;
   font-weight: bold;
 }
 .card__form label.required::after {
@@ -440,6 +442,8 @@ footer hr {
   color: #E65400;
 }
 .card__form input, .card__form select {
+  height: 30px;
+  padding-left: 5px;
   border-color: #D6D6D6;
   box-shadow: -2px 2px 0px rgba(0, 0, 0, 0.1607843137);
 }

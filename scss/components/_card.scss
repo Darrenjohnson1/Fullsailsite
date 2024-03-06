@@ -29,6 +29,8 @@
         }
 
         label{
+            padding-left: 8px;
+            font-size: 14px;
             font-weight: bold;
         }
 
@@ -38,8 +40,14 @@
         }
 
         input, select{
+            height: 30px;
+            padding-left: 5px;
             border-color: v.$form__border;
             box-shadow: -2px 2px 0px #00000029;
+        }
+
+        select {
+            
         }
 
         .input__checkbox {
