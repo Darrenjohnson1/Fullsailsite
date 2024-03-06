@@ -2,7 +2,7 @@
 
 .hero {
     background-image: url('../../src/img/Header\ Image.png');
-    height:auto;
+    height:470px;
     background-position: left center;
 
     .container {
@@ -59,6 +59,6 @@
 @media (max-width:390px) {
     .hero {
         background-position: left top;
-        height:auto;
+        height:220px;
     }
 }

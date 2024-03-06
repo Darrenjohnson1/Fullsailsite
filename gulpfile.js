@@ -6,7 +6,6 @@ function style() {
     return gulp.src('./scss/**/*.scss')
         .pipe(sass())
         .pipe(gulp.dest('./src/css'))
-        .pipe(csscomb({"sort-order-fallback": "abc"}))
         .pipe(browserSync.stream());
 }
 

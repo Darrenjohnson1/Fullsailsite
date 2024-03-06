@@ -297,6 +297,9 @@ ul {
     top: 0;
     width: 100%;
   }
+  header .container {
+    margin: 0 0 0 15px;
+  }
 }
 .footer--primary {
   height: fit-content;
@@ -358,7 +361,6 @@ footer hr {
 .hero {
   background-image: url("../../src/img/Header Image.png");
   height: 470px;
-  background-size: auto;
   background-position: left center;
 }
 .hero .container {
@@ -465,7 +467,7 @@ footer hr {
     padding: 0 0 0 15px;
     transform: translate(0, -400px);
   }
-  .card__form--offset hr {
+  .card__form--offset hr.info {
     display: none;
   }
 }
